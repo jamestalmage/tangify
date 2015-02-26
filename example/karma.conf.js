@@ -15,7 +15,10 @@ module.exports = function(karma){
     },
 
     browserify: {
-      transform : ['bify-ng-test-utils']
+      debug: true,
+      transform : [
+        ['bify-ng-test-utils', {sourceMap:true}]
+      ]
     },
 
     singleRun: true,
