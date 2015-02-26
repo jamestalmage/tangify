@@ -1,0 +1,29 @@
+{
+  "name": "bify-ng-test-utils",
+  "version": "0.0.1",
+  "description": "ng-test-utils for browserify",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd example && npm install && karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jamestalmage/browserify-angular-test-utils.git"
+  },
+  "keywords": [
+    "browserify",
+    "angular",
+    "testing"
+  ],
+  "author": "James Talmage",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jamestalmage/browserify-angular-test-utils/issues"
+  },
+  "homepage": "https://github.com/jamestalmage/browserify-angular-test-utils",
+  "dependencies": {
+    "ng-test-utils": "0.0.1",
+    "through2": "^0.6.3",
+    "transformify": "^0.1.2"
+  }
+}
