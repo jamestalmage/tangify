@@ -1,7 +1,7 @@
 describe('math', function() {
-  var mathModule = require('./math');
+  var mathModule = require('../src/');
 
-  beforeEach(angular.mock.module(mathModule.name));
+  beforeEach(angular.mock.module(mathModule));
 
   // @ngInject
   var add, subtract;

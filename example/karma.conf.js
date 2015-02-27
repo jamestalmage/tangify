@@ -5,7 +5,7 @@ module.exports = function(karma){
     files: [
       "node_modules/angular/angular.js",
       "node_modules/angular-mocks/angular-mocks.js",
-      "src/math-test.js"
+      "test/**"
     ],
 
     browsers: ['PhantomJS'],
