@@ -11,12 +11,16 @@ module.exports = function(karma){
     browsers: ['PhantomJS'],
 
     preprocessors: {
-      '**/*-test.js': ['browserify']
+      '**/*-test.*': ['browserify']
     },
+
+    reporters: ['mocha'],
 
     browserify: {
       debug: true,
+      extensions : ['.js', '.coffee'],
       transform : [
+        'coffeeify',
         ['bify-ng-test-utils', {sourceMap:true}]
       ]
     },

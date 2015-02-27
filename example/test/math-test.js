@@ -18,7 +18,7 @@ describe('math', function() {
 
   var assert = {
     equals:function(expected, actual){
-      if(expected != actual) throw new Error('expected ' + expected + ' to equal ' + actual);
+      if(expected !== actual) throw new Error('expected ' + expected + ' to equal ' + actual);
     }
   }
 });
