@@ -4,8 +4,12 @@ describe "math-coffee",  =>
 
   beforeEach angular.mock.module math
 
+  ### @ngProvide ###
+  sum = (values...) ->
+    values.reduce (t, s) -> t + s
+
   ### @ngInject ###
-  `var add, subtract`
+  `var add, subtract, total`
 
   it "add", =>
     result = add 2, 2
@@ -14,6 +18,10 @@ describe "math-coffee",  =>
   it "subtract", =>
     result = subtract 4, 2
     assert.equals 2, result
+
+  it "sum", =>
+    result = total 2, 4, 6, 8
+    assert.equals 20, result
 
   assert =
     equals: (expected, actual) =>

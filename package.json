@@ -1,6 +1,6 @@
 {
   "name": "bify-ng-test-utils",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ng-test-utils for browserify",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
   "homepage": "https://github.com/jamestalmage/browserify-angular-test-utils",
   "dependencies": {
     "convert-source-map": "^0.5.0",
-    "ng-test-utils": "0.0.1",
+    "ng-test-utils": "0.0.3",
     "through2": "^0.6.3",
     "transformify": "^0.1.2"
   }

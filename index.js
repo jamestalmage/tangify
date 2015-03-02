@@ -2,7 +2,7 @@
 
 var through      = require('through2');
 var transformify = require('transformify');
-var transform    = require('ng-test-utils/src/ngInject');
+var transform    = require('ng-test-utils');
 var convert      = require('convert-source-map');
 
 module.exports = function (file, opts) {
