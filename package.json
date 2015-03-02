@@ -4,7 +4,8 @@
   "description": "ng-test-utils for browserify",
   "main": "index.js",
   "scripts": {
-    "test": "cd example && npm i -S .. && karma start"
+    "test": "cd example && npm i -D .. && npm i && karma start",
+    "clean": "rm -rf node_modules && rm -rf example/node_modules"
   },
   "repository": {
     "type": "git",
