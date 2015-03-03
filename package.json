@@ -1,6 +1,6 @@
 {
   "name": "bify-ng-test-utils",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "ng-test-utils for browserify",
   "main": "index.js",
   "scripts": {
