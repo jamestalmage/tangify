@@ -24,7 +24,7 @@
   "homepage": "https://github.com/jamestalmage/browserify-angular-test-utils",
   "dependencies": {
     "convert-source-map": "^0.5.0",
-    "ng-test-utils": "0.0.3",
+    "ng-test-utils": "0.0.6",
     "through2": "^0.6.3",
     "transformify": "^0.1.2"
   }
