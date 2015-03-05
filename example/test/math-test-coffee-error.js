@@ -1,0 +1,1 @@
+require('./math-test-error.coffee');

@@ -5,13 +5,14 @@ module.exports = function(karma){
     files: [
       "node_modules/angular/angular.js",
       "node_modules/angular-mocks/angular-mocks.js",
-      "test/**"
+      "test/math-test.js",
+      "test/math-test.coffee"
     ],
 
     browsers: ['PhantomJS'],
 
     preprocessors: {
-      '**/*-test.*': ['browserify']
+      'test/*.*': ['browserify']
     },
 
     reporters: ['mocha'],
@@ -20,7 +21,7 @@ module.exports = function(karma){
       debug: true,
       extensions : ['.js', '.coffee'],
       transform : [
-        'coffeeify',
+        ['coffeeify', {sourceMap:true}],
         ['bify-ng-test-utils', {sourceMap:true}]
       ]
     },

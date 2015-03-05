@@ -19,7 +19,7 @@ describe "math-coffee",  =>
     result = subtract 4, 2
     assert.equals 2, result
 
-  it "sum", =>
+  it "total", =>
     result = total 2, 4, 6, 8
     assert.equals 20, result
 

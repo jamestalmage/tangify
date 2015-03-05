@@ -28,6 +28,7 @@ describe('math', function() {
     // `total` aliases sum, and the default implementation of `sum` throws an error.
     // The `ngProvide` annotation above provides an alternate implementation of sum, which is why this works.
     assert.equals(15, total(1,2,3,4,5));
+    throw new Error('e');
   });
 
   var assert = {

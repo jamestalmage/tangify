@@ -1,6 +1,10 @@
 .idea
 node_modules
 example/node_modules
+*.log
+build
 
 # npmignore
 example
+gulpfile.js
+.travis.yml
