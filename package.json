@@ -29,7 +29,7 @@
     "transformify": "^0.1.2"
   },
   "peerDependencies": {
-    "tang": "^0.1.0"
+    "tang": "^0.1.1"
   },
   "devDependencies": {
     "angular": "^1.3.14",
