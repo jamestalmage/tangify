@@ -2,7 +2,7 @@
 
 var through      = require('through2');
 var transformify = require('transformify');
-var transform    = require('ng-test-utils');
+var transform    = require('tang');
 var merge        = require('merge');
 
 module.exports = function (file, opts) {
