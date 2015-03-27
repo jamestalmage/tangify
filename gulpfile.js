@@ -4,7 +4,7 @@ var browserify = require('browserify');
 
 var utils = require('angular-test-utils-test-utils');
 var karma = require('karma').server;
-var ngTestUtils = require('./');
+var tang = require('./');
 var coffeeify = require('coffeeify');
 
 var source =require('vinyl-source-stream');
@@ -20,7 +20,7 @@ function makeBundleTask(fileName, error){
         extensions:['.coffee','.js']
       })
       .transform(coffeeify,   {sourceMap:true})
-      .transform(ngTestUtils, {sourceMap:true})
+      .transform(tang, {sourceMap:true})
       .bundle();
 
     return bundleStream
