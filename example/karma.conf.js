@@ -22,7 +22,7 @@ module.exports = function(karma){
       extensions : ['.js', '.coffee'],
       transform : [
         ['coffeeify', {sourceMap:true}],
-        ['bify-ng-test-utils', {sourceMap:true}]
+        ['tangify', {sourceMap:true}]
       ]
     },
 

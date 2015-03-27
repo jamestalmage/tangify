@@ -4,7 +4,7 @@
   "description": "tang transforms for browserify",
   "main": "index.js",
   "scripts": {
-    "test": "npm i ng-test-utils@0.0.x && gulp && npm run test-example",
+    "test": "npm i tang@0.1.x && gulp && npm run test-example",
     "test-example": "cd example && npm i -D .. && npm i && ./node_modules/karma/bin/karma start",
     "clean": "rm -rf node_modules && rm -rf example/node_modules"
   },
