@@ -1,6 +1,6 @@
 {
   "name": "tangify",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "description": "tang transforms for browserify",
   "main": "index.js",
   "scripts": {
