@@ -1,7 +1,7 @@
 {
-  "name": "bify-ng-test-utils",
+  "name": "tangify",
   "version": "0.0.6",
-  "description": "ng-test-utils for browserify",
+  "description": "tang transforms for browserify",
   "main": "index.js",
   "scripts": {
     "test": "npm i ng-test-utils@0.0.x && gulp && npm run test-example",
@@ -29,7 +29,7 @@
     "transformify": "^0.1.2"
   },
   "peerDependencies": {
-    "ng-test-utils": "0.0.x"
+    "tang": "^0.1.0"
   },
   "devDependencies": {
     "angular": "^1.3.14",
