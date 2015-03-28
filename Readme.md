@@ -1,14 +1,16 @@
 tangify
 =======
-[tang](https://github.com/jamestalmage/tang) transforms for your browserify build
+[tang](https://github.com/jamestalmage/tang) for your browserify build.
 
+[Tang](https://github.com/jamestalmage/tang) provides a series of annotations that make it easier
+to test your angular code. See the [tang readme](https://github.com/jamestalmage/tang) to understand what
+is possible.
 
 install
 -------
 ```
 npm install --save-dev tang tangify
 ```
-
 
 usage
 -----
