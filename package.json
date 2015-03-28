@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jamestalmage/browserify-angular-test-utils.git"
+    "url": "https://github.com/jamestalmage/tangify.git"
   },
   "keywords": [
     "browserify",
@@ -20,9 +20,9 @@
   "author": "James Talmage",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jamestalmage/browserify-angular-test-utils/issues"
+    "url": "https://github.com/jamestalmage/tangify/issues"
   },
-  "homepage": "https://github.com/jamestalmage/browserify-angular-test-utils",
+  "homepage": "https://github.com/jamestalmage/tangify",
   "dependencies": {
     "merge": "^1.2.0",
     "through2": "^0.6.3",
